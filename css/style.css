@@ -89,6 +89,7 @@ a,a:hover,a:focus,button,button:focus {
 }
 
 .back_top {
+  background: #6d6d6d;
   text-align: center;
   position: fixed;
   bottom: 15px;
@@ -96,7 +97,7 @@ a,a:hover,a:focus,button,button:focus {
   width: 35px;
   display: none;
   z-index: 10000;
-  border-radius: 3px;
+  border-radius: 10px;
   right: 20px;
   transition: all .5s;
 }
@@ -107,19 +108,22 @@ a,a:hover,a:focus,button,button:focus {
   font-size: 32px;
   display: block;
 }
-
+.grey {
+  background-color: #eaeaea!important;
+}
 .section {
   padding-top: 100px;
   padding-bottom: 40px;
   position: relative;
-  background-color: #eaeaea;
+  background-color: #fff;
 }
 .about {
   padding-top: 150px;
   padding-bottom: 40px;
   position: relative;
-  background-color: #eaeaea;
+  background-color: #fff;
 }
+
 
 .parallax{
   padding: 100px 0px;
@@ -162,6 +166,7 @@ a,a:hover,a:focus,button,button:focus {
 
 .btn-custom {
   border: 1px solid;
+  color: #ffe254;
 }
 
 .btn-custom:hover,.btn-custom:focus,.btn-custom:active,.btn-custom.active,.btn-custom.focus,.btn-custom:active,.btn-custom:focus,.btn-custom:hover,.open>.dropdown-toggle.btn-custom {
@@ -246,7 +251,7 @@ a,a:hover,a:focus,button,button:focus {
 }
 
 .custom-nav.stickyadd .navbar-nav li a {
-  color: #3e3939;
+  color: #775b1c;
 }
  .custom-nav.navbar-nav .donate: hover{
   background-color: #000!important;
@@ -389,7 +394,8 @@ a,a:hover,a:focus,button,button:focus {
 } */
 
 .about-boxes .about-boxes-icon i {
-  background-color: #efefef;
+  background-color: #fff;
+  border: 1px solid #775b1c;
   border-radius: 50%;
   padding: 27px;
   position: relative;
@@ -410,23 +416,22 @@ a,a:hover,a:focus,button,button:focus {
 
 .services-boxes:hover .services-title-border {
   width: 80px;
-  background-color: #000;
+  background-color: #775b1c;
 }
 .services-boxes:hover {
-  color:#000;
+  color:#775b1c;
 }
 .about-boxes{
-  background: #ddd;
+  background: #fff;
   color:#5e5f4f;
+  cursor:pointer;
   transition: 1s;
-  box-shadow: 1px 1px 3px #938eaf;
+  box-shadow: 0px 0px 2px #938eaf;
 }
 
 .about-boxes:hover {
-  color: #000;
-}
-
-
+  color: #775b1c;
+};
 
 #p-box{
   background: url('images/blog/blog-3.jpg') no-repeat center;
@@ -437,8 +442,9 @@ a,a:hover,a:focus,button,button:focus {
 
 
 .services-boxes{
-  background-color: #eaeaea;
+  background-color: #fff;
   color:#5e5f4f;
+  box-shadow: 0px 0px 2px #938eaf;
 }
 .services-boxes h5 {
   font-weight: 600;
@@ -454,8 +460,9 @@ a,a:hover,a:focus,button,button:focus {
 }
 
 .testi_boxes {
-  max-width: 364px;
-  background-color: #c5c5c5;
+  max-width: 320px;
+  background-color: #fff;
+  box-shadow: 0px 0px 4px #938eaf;
 }
 
 .client_boxes {
@@ -502,9 +509,11 @@ a,a:hover,a:focus,button,button:focus {
 .owl-theme .owl-controls .owl-page.active span {
   width: 20px;
 }
+.owl-theme .owl-controls .owl-page.active{
+  border: 1px solid;
+}
 
-.item{
-  background:red;
+.owl-carousel .owl-item {
 }
 
 .work_menu li a {
@@ -764,10 +773,15 @@ a,a:hover,a:focus,button,button:focus {
   color: #0dba26;
   font-size: 22px;
 }
-
+.contact-info{
+  color:#775b1c;
+}
+.contact-info:hover{
+  color:#504f4f;
+}
 .footer {
   padding: 70px 0;
-  background-color: #242424!important;
+  background-color: #b1b1b1!important;
 }
 
 .footer .footer-alt p {
@@ -775,9 +789,10 @@ a,a:hover,a:focus,button,button:focus {
 }
 
 .footer .footer-alt ul li a {
-  border-radius: 50%;
+  border: 1px solid #929292;
+  border-radius: 20%;
   transition: all .5s;
-  background-color: rgba(241,241,241,.08);
+  background-color: #fff;
   width: 42px;
   height: 42px;
   display: block;
@@ -785,6 +800,16 @@ a,a:hover,a:focus,button,button:focus {
   line-height: 42px;
   text-align: center;
 }
+
+custom-nav .navbar-nav li a:active,.custom-nav .navbar-nav li.active a,.custom-nav .navbar-nav li a:hover,.custom-nav.stickyadd .navbar-nav li a:hover,.custom-nav.stickyadd .navbar-nav li a:active,.custom-nav.stickyadd .navbar-nav li.active a,.about-social li a:hover {
+  color: #eac616!important;
+}
+
+.btn-custom:hover,.btn-custom:focus,.btn-custom:active,.btn-custom.active,.btn-custom.focus,.btn-custom:active,.btn-custom:focus,.btn-custom:hover,.open>.dropdown-toggle.btn-custom {
+  background-color: #eac616;
+  border-color: #eac616;
+}
+
 
 @media(min-width:200px) and (max-width:768px) {
   .custom-nav {
