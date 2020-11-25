@@ -165,8 +165,8 @@ a,a:hover,a:focus,button,button:focus {
 }
 
 .btn-custom {
-  border: 1px solid;
-  color: #ffe254;
+  border: 1px solid #775b1c;
+  background-color: #775b1c;
 }
 
 .btn-custom:hover,.btn-custom:focus,.btn-custom:active,.btn-custom.active,.btn-custom.focus,.btn-custom:active,.btn-custom:focus,.btn-custom:hover,.open>.dropdown-toggle.btn-custom {
@@ -401,6 +401,7 @@ a,a:hover,a:focus,button,button:focus {
   position: relative;
   top: -50px;
   font-size: 68px;
+  transition: .5s;
 }
 
 .services-boxes .services-boxes-icon i{
@@ -429,8 +430,8 @@ a,a:hover,a:focus,button,button:focus {
   box-shadow: 0px 0px 2px #938eaf;
 }
 
-.about-boxes:hover {
-  color: #775b1c;
+.about-boxes:hover .about-boxes-icon {
+  color: #ffbb61;
 };
 
 #p-box{
@@ -463,6 +464,7 @@ a,a:hover,a:focus,button,button:focus {
   max-width: 320px;
   background-color: #fff;
   box-shadow: 0px 0px 4px #938eaf;
+  cursor: pointer;
 }
 
 .client_boxes {
@@ -802,12 +804,12 @@ a,a:hover,a:focus,button,button:focus {
 }
 
 custom-nav .navbar-nav li a:active,.custom-nav .navbar-nav li.active a,.custom-nav .navbar-nav li a:hover,.custom-nav.stickyadd .navbar-nav li a:hover,.custom-nav.stickyadd .navbar-nav li a:active,.custom-nav.stickyadd .navbar-nav li.active a,.about-social li a:hover {
-  color: #eac616!important;
+  color: #dca255!important;
 }
 
 .btn-custom:hover,.btn-custom:focus,.btn-custom:active,.btn-custom.active,.btn-custom.focus,.btn-custom:active,.btn-custom:focus,.btn-custom:hover,.open>.dropdown-toggle.btn-custom {
-  background-color: #eac616;
-  border-color: #eac616;
+  background-color: #dca255;
+  border-color: #dca255;
 }
 
 
